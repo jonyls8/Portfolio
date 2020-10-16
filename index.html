@@ -1,0 +1,697 @@
+<!--
+Author: jonathan lopez
+Note : It has been developed on top of W3layout template - http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>jonathan lopez| Home :: Portfolio</title>
+  <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Custom Theme files -->
+  <link href="css/style.css" rel='stylesheet' type='text/css' />
+  <!-- Custom Theme files -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="jonathan lopez Resume Portfolio Preface Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template" />
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon-16x16.png">
+  <link rel="icon"  sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon"  sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+  <!-- End -->
+  <!-- webfonts -->
+  <link href='//fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  <!-- webfonts -->
+  <!---- start-smoth-scrolling---->
+  <script type="text/javascript" src="js/move-top.js"></script>
+  <script type="text/javascript" src="js/easing.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+      $(".scroll").click(function (event) {
+        event.preventDefault();
+        $('html,body').animate({
+          scrollTop: $(this.hash).offset().top
+        }, 1000);
+      });
+    });
+  </script>
+  <!---- start-smoth-scrolling---->
+</head>
+
+<body>
+  <!-- container -->
+  <!-- header -->
+  <div id="home" class="header">
+    <div class="container">
+      <!-- top-hedader -->
+      <div class="top-header">
+        <!-- /logo -->
+        <!--top-nav---->
+        <div class="top-nav">
+          <div class="navigation">
+            <div class="logo">
+              <h1><a href="index.html"><span>I</span> AM</a></h1>
+            </div>
+            <div class="navigation-right">
+              <span class="menu"><img src="images/menu.png" alt=" " /></span>
+              <nav class="link-effect-3" id="link-effect-3">
+                <ul class="nav1 nav nav-wil">
+                  <li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+                  <li><a class="scroll" data-hover="About" href="#about">About</a></li>
+                  <li><a class="scroll" data-hover="Skills" href="#services">Skills</a></li>
+                  <li><a class="scroll" data-hover="Experience" href="#work">Experience</a></li>
+                  <li><a class="scroll" data-hover="Projects" href="#blogs">Projects</a></li>
+                  <li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>
+                </ul>
+              </nav>
+              <!-- script-for-menu -->
+              <script>
+                $("span.menu").click(function () {
+                  $("ul.nav1").slideToggle(300, function () {
+                    // Animation complete.
+                  });
+                });
+              </script>
+              <!-- /script-for-menu -->
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <!-- /top-hedader -->
+        </div>
+        <div class="banner-info">
+          <div class="col-md-7 header-right">
+            <h1>Jonathan Lopez Sanchez</h1>
+            <h6>FULL-STACK Software Developer from Spain.</h6>
+            <div class="hero__links">
+              <a href="https://drive.google.com/file/d/1UPCQYV7xEdX6iwmtx_fSWVKLJgHK5pRx/view?usp=sharing"   target="_blank" class="hero__resume btn" title="Click to view my Resume" style="color: red;">View CV</a>
+              <ul class="hero__social">
+                <li>
+                  <a href="https://github.com/jonyls8" rel="noopener" target="_blank" title="Github">
+                    <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/jonathanlopezsanchez/" rel="noopener" title='LinkedIn' target="_blank">
+                    <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <ul class="address">
+
+              <li>
+                <ul class="address-text">
+                  <li><b>NAME</b></li>
+                  <li>Jonathan Lopez</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>D.O.B</b></li>
+                  <li>08-12-1994</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>MOBILE </b></li>
+                  <li>+34 603 87 36 20</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>ADDRESS </b></li>
+                  <li>Malaga, Spain</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>E-MAIL </b></li>
+                  <li><a href="mailto:jonathan.lopez.sanchez1994@gmail.com">jonathan.lopez.sanchez1994@gmail.com</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-5 header-left">
+            <img src="images/IMG_20200722_165404.jpg" alt="">
+          </div>
+          <div class="clearfix"> </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- about -->
+  <div id="about" class="about">
+    <div class="col-md-6 about-left">
+      <div id="owl-demo1" class="owl-carousel owl-carousel2">
+        <div class="item">
+          <div class="about-left-grid">
+            <h2>As a <span>Software Developer</span></h2>
+            <p><strong>Since 2019</strong> I have been studyng on <a href="https://platzi.com/" target="_blank">Platzi</a> Which is a online platform with over
+              1 million of students around the world. In one year I've done many course about coding, methodologies and how a Start up works 
+              <ul>
+                <li><a class="a-btn-a scroll" href="#blogs">My Work</a></li>
+                <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+              </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="about-left-grid">
+            <h2>My <span>Education</span></h2>
+            <p>I've completed my,
+              <P>
+                <p>Degree in psychology (Uned - Spain) which opened my mind a lot, and also gave me the confidence to overcome any situation 
+                  <p>during the period of 2014 - 2018. Also during this time, I was living in England (London) I was working and studyng at the same time
+                    (I got Nin number and Bank account in case you are a English company)
+                  </p>
+                  <ul>
+                    <li><a class="a-btn-a scroll" href="#blogs">My Work</a></li>
+                    <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+                  </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="about-left-grid">
+            <h2>Free time or <span>Hobbies</span></h2>
+            <p>My hobby is coding and learn new Technologies, I've done many courses, and also in my free time I make new projects for myself and some
+              small projects as a freelancer on upwork or fiverr
+            </p>
+            <ul>
+              <li><a class="a-btn-a scroll" href="#blogs">My Work</a></li>
+              <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 about-right">
+
+    </div>
+    <div class="clearfix"> </div>
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <script src="js/owl.carousel.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#owl-demo1").owlCarousel({
+          items: 1,
+          lazyLoad: false,
+          autoPlay: true,
+          navigation: false,
+          navigationText: false,
+          pagination: true,
+        });
+      });
+    </script>
+    <!-- Feedback -->
+    <script>
+      $(document).ready(function () {
+        $("#owl-demo3").owlCarousel({
+          items: 1,
+          lazyLoad: false,
+          autoPlay: true,
+          navigation: false,
+          navigationText: true,
+          pagination: true,
+        });
+      });
+    </script>
+  </div>
+  <!-- /about -->
+  <!-- services -->
+  <div id="services" class="services">
+    <div class="container">
+      <div class="service-head one text-center ">
+        <h4>WHAT I DO</h4>
+        <h3>MY <span>SKILLS</span></h3>
+        <span class="border two"></span>
+      </div>
+      <!-- services-grids -->
+      <div class="wthree_about_right_grids w3l-agile">
+        <div class="col-md-6 wthree_about_right_grid">
+          <div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-th-large"></i>
+            </div>
+          </div>
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Front-end Development</h4>
+          </div>
+          <div class="clearfix"> </div>
+          <div class="col-md-12 skill-group-div">
+            <!-- Skill Bars -->
+            <div class="col-md-6 left-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">HTML <i class="val">85%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 right-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">CSS <i class="val">80%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 left-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">Bootstrap <i class="val">85%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 right-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">Javascript <i class="val">70%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 left-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">Jquery <i class="val">50%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 right-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">React <i class="val">50%</i></span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-6 wthree_about_right_grid">
+          <div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-leaf"></i>
+            </div>
+          </div>
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Server-side Development</h4>
+          </div>
+          <div class="clearfix"> </div>
+          <div class="col-md-12 skill-group-div">
+            <!-- Skill Bars -->
+           
+            <div class="clearfix">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">Wordpress <i class="val">60%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+              <div class="progress skill-bar ">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">NodeJS <i class="val">65%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+              <div class="progress skill-bar ">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">Express.Js <i class="val">65%</i></span>
+                </div>
+              </div>
+            </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="clearfix"></div>
+        <span class="border two"></span>
+        <hr></hr>
+        <div class="col-md-6 wthree_about_right_grid">
+          <!--<div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-gift"></i>
+            </div>
+          </div>-->
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Databases</h4>
+            <ul class="news">
+              <li>Postman</li>              
+              <li>MongoDB</li>              
+            </ul>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-6 wthree_about_right_grid">
+          <!--<div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-wrench"></i>
+            </div>
+          </div>-->
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Project Tools</h4>
+            <ul class="news">
+              <li>Agile</li>
+              <li>Scrum</li>
+              <li>Git & Github</li>
+            </ul>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-6 wthree_about_right_grid">
+          <!--<div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-certificate"></i>
+            </div>
+          </div>-->
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Tools & Ids</h4>
+            <ul class="news">
+              <li>VSCode</li>
+              <li>Sublime Text</li>
+            </ul>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-6 wthree_about_right_grid">
+          <!--<div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-tint"></i>
+            </div>
+          </div>-->
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Others</h4>
+            <ul class="news">
+              <li>AWS</li>
+              <li>E-Commerce</li>
+            </ul>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services-grids -->
+  </div>
+  </div>
+  <!-- services -->
+  <!--work-experience-->
+  <div id="work" class="work">
+    <div class="container">
+      <div class="service-head text-center">
+        <h4>WHAT I DID</h4>
+        <h3>MY <span>EXPERIENCE</span></h3>
+        <span class="border one"></span>
+      </div>
+      <div class="time-main w3l-agile">
+        <div class="col-md-6 year-info">
+          <ul class="year">
+            <li>2019-2020 <i class="glyphicon glyphicon-arrow-right"></i> <span id="tillDate"></span></li>
+            <div class="clearfix"></div>
+          </ul>
+        </div>
+        <ul class="col-md-6 timeline">
+          <li>
+            <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title"><a href="https://platzi.com/@jafner/curso/1350-html5-css3/diploma/detalle/" target="_blank">Web development (Front-end) <i>Remote</i> (Click to see Diplome)</a></h4>
+              </div>
+              <div class="timeline-body">
+                <p>1 year course using Technologies like</p>
+                <p>- Html
+                  - Css/Bootstrap
+                  - Javascript/Jquery
+                </p>
+                <p><strong>Great! place to learn.</strong></p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title"><a href="https://platzi.com/@jafner/ruta/52-startups/diploma/detalle/" target="_blank">Start up Course (Click to see Diplome)</a></h4>
+              </div>
+              <div class="timeline-body">
+                <p>6 Month course creating a Start up, some of the modules that were included on the course: 
+                  - Engineering Managment
+                  - Finances for Projects
+                  - Leadership for teams
+                  - Digital marketing (Seo)
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="col-md-6 year-info">
+          <ul class="year">
+            <li>Currently <i class="glyphicon glyphicon-arrow-right"></i> <span id="tillDate"></span></li>
+            <div class="clearfix"></div>
+          </ul>
+        </div>
+        <ul class="col-md-6 timeline">
+          <li>
+            <div class="timeline-badge warning"><i class="glyphicon glyphicon-briefcase"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title"><a href="#" target="_blank">Mern Stack <i>Remote</i></a></h4>
+              </div>
+              <div class="timeline-body">
+                <p>Currently I'm learning the Mern stack which include</p>
+                <p>- React
+                  - Express.Js
+                  - MongoDB
+                  - NodeJS
+                </p>
+                <p><strong>
+                  I'm learning it in Udemy with the teacher  <a href="https://www.linkedin.com/in/juanpablodelatorre/" target="_blank">"Juan torres"</a> He got more than 100.000 students
+                </strong></p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  <!--//work-experience-->
+  <!-- top-grids -->
+  <div class="blog" id="blogs">
+    <div class="container">
+      <div class="service-head text-center">
+        <h4>PROJECTS</h4>
+        <h3>MY <span>Projects</span></h3>
+        <span class="border one"></span>
+      </div>
+      <div class="news-grid w3l-agile">
+        <div class="col-md-6 news-text">
+          <h3> <a href="https://jonyls8.github.io/Colors/" target="_blank">Colors Project</a></h3>
+          <ul class="news">
+            <li>Html</li>
+            <li>Css</li>
+            <li>Javascript</li>
+            <li>Chroma.Js</li>
+          </ul>
+          <p><strong> Colors project </strong>Small projects about color palettes. I start introducing all the basics of Javascript and adding some ES6 elements such as "Arrow functions". I use a library called <a href="https://gka.github.io/chroma.js/">
+          "Chroma.Js</a> Which allow you put things like brightness, saturation or the own colors easily </p>
+          <a href="https://jonyls8.github.io/Colors/" target="_blank"  class="read hvr-shutter-in-horizontal">See the project</a>
+        </div>
+        <div class="col-md-6 news-text">
+          <h3> <a href="https://jonyls8.github.io/Web/" target="_blank">Fasion Website</a></h3>
+          <ul class="news">
+            <li>Html</li>
+            <li>Css</li>
+            <li>Javascript</li>
+            <li>ScrollMagic</li>
+            <li>Gsap</li>
+          </ul>
+          <p><strong> Fasion Website</strong> was about making a good design using two libraries (ScrollMagic and Gsap).
+          ScrollMagic allow you to make animations in a easier way, delimiting where and how is going to be.
+          Gsap is one of the most used libraries for animations in Javascript, easy to understand and very usefull
+          </p>
+          <a href="https://jonyls8.github.io/Web/" target="_blank" class="read hvr-shutter-in-horizontal">See the project</a>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="news-grid w3l-agile">
+        <div class="col-md-6 news-text">
+          <h3> <a href="https://jonyls8.github.io/Photon/" target="_blank">Photon</a></h3>
+          <ul class="news">
+            <li>Html</li>
+            <li>Css</li>
+            <li>Javascript</li>
+          </ul>
+          <p>Photon project was a really good and excited experience, you can transmite a lot with only pictures.
+            About the project, I introduce new things like
+            <li>Api's</li>     
+            <li>Fetch</li>     
+            <li>Promises</li>
+            <li>Async await</li>
+            <p>And keep improving my skills with vanilla Js before start with a framework or a bigger project</p>     
+          </p>
+          <a href="https://jonyls8.github.io/Photon/"  class="read hvr-shutter-in-horizontal">See the project</a>
+        </div>
+        <div class="col-md-6 news-text">
+          <h3> <a href="https://infallible-lamarr-2494da.netlify.app/" target="_blank">Higher order functions</a></h3>
+          <ul class="news">
+            <li>Html</li>
+            <li>Css</li>
+            <li>Json</li>
+            <li>Javascript</li>
+          </ul>
+          <p>On this project I wanted to improve my skills with Array methods and also learn how Json works</p>
+          <a href="https://infallible-lamarr-2494da.netlify.app/" target="_blank" class="read hvr-shutter-in-horizontal">See the project</a>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="news-grid w3l-agile">
+        <div class="col-md-6 news-text">
+          <h3> <a href="https://objective-brattain-fbaa15.netlify.app/" target="_blank">Date Project (React)</a></h3>
+          <ul class="news">
+            <li>Html</li>
+            <li>Css</li>
+            <li>Skeleton</li>
+            <li>Javascript</li>
+            <li>React</li>
+          </ul>
+          <p>This is my first React project, I put a lot of efford learning the basic stuff like:
+            <li>Hooks (useState, useEffect, useContext, useReducer). Also I use a Css library (Skeleton) very useful to build projects fast</li>
+            <li>Helpers</li>
+            <li>Props</li>
+            <li>imports/exports</li>
+          </p>
+          
+          <a href="https://objective-brattain-fbaa15.netlify.app/"  target="_blank"   class="read hvr-shutter-in-horizontal">See the project</a>
+        </div>
+        <div class="col-md-6 news-text">
+          <h3> <a href="https://practical-cray-12c6c2.netlify.app/" target="_blank">Budget Project </a></h3>
+          <ul class="news">
+            <li>Html</li>
+            <li>Css</li>
+            <li>Skeleton</li>
+            <li>React</li>
+          </ul>
+          <p>My last project before start with the Mern Stack (MongoDB, Nodejs, ExpresJs, React). With this project I wanted to keep testing react
+            finally understand all the basics
+          </p>
+          <a href="https://practical-cray-12c6c2.netlify.app/"  class="read hvr-shutter-in-horizontal">See the project</a>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      
+    
+
+    </div>
+  </div>
+  <!-- top-grids -->
+
+  <!-- /header -->
+  <div class="footer" id="contact">
+    <div class="container">
+      <div class="service-head one text-center">
+        <h4>CONTACT ME</h4>
+        <h3>GET <span>IN TOUCH WITH ME</span></h3>
+        <span class="border two"></span>
+      </div>
+      <div class="mail_us">
+        <div class="col-md mail_left">
+          <div class="contact-grid1-left">
+            <div class="contact-grid1-left1">
+              <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+              <h4>Contact By Email</h4>
+              <ul>
+                <li>Primary: <a href="mailto:jonathan.lopez.sanchez1994@gmail.com">jonathan.lopez.sanchez1994@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="contact-grid1-left">
+            <div class="contact-grid1-left1">
+              <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+              <h4>Contact By Mobile</h4>
+              <ul>
+                <li>Mobile: +34 603 87 36 20</li>
+              </ul>
+            </div>
+          </div>
+          <div class="contact-grid1-left">
+            <div class="contact-grid1-left1">
+              <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+              <h4>Looking For Address</h4>
+              <ul>
+                <li>Address: Calle murillo bracho, apartamento victoria del sol 2, Torremolinos, Malaga</li>
+                <li>Available for travelling or relocate</li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="copy_right text-center">
+        <p class="float-left">&copy; 2020 Profile of Jonathan Lopez</p>
+        <ul class="hero__social">
+          <li>
+            <a href="https://github.com/jonyls8" rel="noopener" target="_blank" title="GitHub">
+              <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jonathanlopezsanchez/" rel="noopener" target="_blank" title='LinkedIn'>
+              <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- //footer -->
+  <!-- /container -->
+  <a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+  <!--start-smooth-scrolling-->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      /*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear'
+								 		};
+										*/
+      $('.progress .progress-bar').css("width",
+        function () {
+          return $(this).attr("aria-valuenow") + "%";
+        }
+      );
+      $().UItoTop({
+        easingType: 'easeOutQuart'
+      });
+
+    });
+  </script>
+  <!--end-smooth-scrolling-->
+  <!-- //for bootstrap working -->
+  <script src="js/bootstrap.js"></script>
+  
+
+
+</body>
+
+</html>
